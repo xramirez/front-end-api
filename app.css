@@ -1,0 +1,37 @@
+.intro-section h1{
+    padding-top : 20px;
+    padding-bottom : 20px;
+    text-align : center;
+    border-radius : 25px;
+    padding-left : 100px;
+    padding-right : 100px;
+}
+.intro-section h2{
+    padding-top : 20px;
+    padding-bottom : 20px;
+    text-align : center;
+    border-radius : 25px;
+}
+.button-section {
+    padding-top : 20px;
+    padding-bottom : 20px;
+    text-align : center;
+    border-radius : 25px;
+}
+
+label {
+    padding-right: 25px;
+    font-size : large;
+}
+
+.display-colors {
+    margin-top : 25px;
+    padding-top : 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius : 25px;
+    padding-bottom: 50px;
+    text-align : center;
+    font-size : large;
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End API Practice</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <section class="intro-section">
+        <h1>Welcome to the Color Palatte Generator!</h1>
+        <h2>Below is a robust application that creates a color palette tailored for you. Are you looking for a color
+            palette but you're not sure what you're looking for? Let us provide some inspiration!
+        </h2>
+    </section>
+    <section class="button-section">
+        <label for="randomButton">Generate a Random Palette</label>
+        <button id="randombutton" class="get-random" onclick="getPalette()">Generate</button>
+    </section>
+    <section class="display-colors">
+        Here's the list of colors for you:
+        <ul class="color-list" id="color-list"></ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
